@@ -1,5 +1,4 @@
 # E-commerce dataset
-### "Searching for insights from e-commerce data using queries in PostgreSQL."
 ## Overview
 The data used is derived from a purely fictional e-commerce platform.
 Regarding the dataset explanation, it goes as follows:
