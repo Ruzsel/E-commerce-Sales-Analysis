@@ -3,39 +3,47 @@
 The data used is derived from a purely fictional e-commerce platform.
 Regarding the dataset explanation, it goes as follows:
 
-order_detail:
+### order_detail:
 
-- id: Unique number of the order / order ID.
-- customer_id: Unique number of the customer.
-- order_date: Date when the transaction was made.
-- sku_id: Unique number of the product (SKU stands for Stock Keeping Unit).
-- price: Price listed on the price tag.
-- qty_ordered: Quantity of items purchased by the customer.
-- before_discount: Total price value of the product (price * qty_ordered).
-- discount_amount: Total discount amount of the product.
-- after_discount: Total price value of the product after discount.
-- is_gross: Indicates whether the customer has not paid the order.
-- is_valid: Indicates whether the customer has made the payment.
-- is_net: Indicates whether the transaction is completed.
-- payment_id: Unique number of the payment method.
+| Column Name       | Description                                                                                      |
+|-------------------|--------------------------------------------------------------------------------------------------|
+| id                | Unique number of the order / order ID.                                                           |
+| customer_id       | Unique number of the customer.                                                                   |
+| order_date        | Date when the transaction was made.                                                              |
+| sku_id            | Unique number of the product (SKU stands for Stock Keeping Unit).                                 |
+| price             | Price listed on the price tag.                                                                   |
+| qty_ordered       | Quantity of items purchased by the customer.                                                      |
+| before_discount   | Total price value of the product (price * qty_ordered).                                           |
+| discount_amount   | Total discount amount of the product.                                                             |
+| after_discount    | Total price value of the product after discount.                                                  |
+| is_gross          | Indicates whether the customer has not paid the order.                                            |
+| is_valid          | Indicates whether the customer has made the payment.                                              |
+| is_net            | Indicates whether the transaction is completed.                                                   |
+| payment_id        | Unique number of the payment method.                
 
-sku_detail:
+### sku_detail:
 
-- id: Unique number of the product (can be used as a key when joining).
-- sku_name: Name of the product.
-- base_price: Price of the item listed on the price tag.
-- cogs: Cost of goods sold / total cost to sell 1 product.
-- category: Product category.
+| Column Name | Description                                                   |
+|-------------|---------------------------------------------------------------|
+| id          | Unique number of the product (can be used as a key when joining).  |
+| sku_name    | Name of the product.                                         |
+| base_price  | Price of the item listed on the price tag.                    |
+| cogs        | Cost of goods sold / total cost to sell 1 product.            |
+| category    | Product category.                                            |
 
-customer_detail:
+### customer_detail:
 
-- id: Unique number of the customer.
-- registered_date: Date when the customer started registering as a member.
+| Column Name     | Description                                                          |
+|-----------------|----------------------------------------------------------------------|
+| id              | Unique number of the customer.                                      |
+| registered_date | Date when the customer started registering as a member.              |
 
-Payment_detail:
+### Payment_detail:
 
-- id: Unique number of the payment method.
-- payment_method: Payment method used.
+| Column Name     | Description                                      |
+|-----------------|--------------------------------------------------|
+| id              | Unique number of the payment method.            |
+| payment_method  | Payment method used.                             |
 
 ## Project Explanation
 The purpose of this project is to answer 5 business questions based on the available dataset.
