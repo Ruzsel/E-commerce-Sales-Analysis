@@ -52,6 +52,9 @@ The purpose of this project is to answer 5 business questions based on the avail
 - PostgreSQL
 - PGAdmin 4
 
+## LinkedIn
+[**Fairuz Mujahid Annabil**](https://www.linkedin.com/in/fairuzmujahidannabil/)
+
 # Questions
 ## 1. During transactions that occurred in 2021, in which month did the total transaction value (after discount) reach its highest?
 ```sql
